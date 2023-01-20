@@ -52,7 +52,15 @@
 .bxs-quote-left{
   font-size: 70px;
 }
-
+.link{
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.link:hover{
+  color: red;
+  transition: 0.5s;
+}
 @media (max-width:500px) {
  
   .box{
