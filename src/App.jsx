@@ -32,7 +32,7 @@ function App() {
 			/>
 			
 			<footer>
-			<a className='link' href="https://github.com/gisselvanessa/react_project1">	&#10084;</a>
+			<a className='link' target='_blank' href="https://github.com/gisselvanessa/react_project1">	&#10084;</a>
 			</footer>
 		</div>
 		
