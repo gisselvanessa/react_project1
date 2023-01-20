@@ -1,0 +1,70 @@
+
+.App{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: 2rem;
+  max-width: 500px;
+
+}
+.box__header {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 1.5rem;
+}
+.box__quote{
+  font-size: 20px;
+  align-self: center;
+}
+.box__author{
+  align-self: flex-end;
+}
+
+.box__btn {
+  align-self: end;
+  /* padding: 0.5rem; */
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 50%;
+  color: white;
+}
+.box__btn:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.bxs-quote-left{
+  font-size: 70px;
+}
+
+@media (max-width:500px) {
+ 
+  .box{
+    padding: 1.5rem;
+  }
+  .box__header{
+    gap: 1rem;
+  }
+  .box__quote{
+    text-align: center;
+  }
+    .bxs-quote-left {
+      font-size: 60px;
+    }
+}
